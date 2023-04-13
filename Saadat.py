@@ -106,7 +106,7 @@ def login():
 		Public()
 def jalan(z):
 	for e in z + '\n':
-		sys.stdout.write(e)sys.stdout.flush();time.sleep(0.01)
+		sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
  
 def Public():
 	clear()
@@ -925,7 +925,7 @@ class Main:
 				print(logo)
 				print("     \033[0;93m   FREE MODE ACTIVATE")
 				print("\n\033[0;94m [+] BRUTE HAS BEEN START")
-				print(" [!] IF NO RESULT USE AIRPLANE MODE 5 SECONDS")
+				print(" [!] IF NO RESULT USE AIRPLANE MODE 6 SECONDS")
 				print("\033[0;94m--------------------------------------------")
 				print("\n")
 				print("\033[0;97m")
