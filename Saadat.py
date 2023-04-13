@@ -418,7 +418,7 @@ class Main:
 		if baloch in ["", " "]:
 			exit()
 		elif baloch in ["2", "02"]:
-			print("    CHAL BAGH 🤭")
+			print("    Saadat🤭")
 			os.system("xdg-open http://Wa.me/+93702856593")
 			exit()
 		elif baloch in ["3", "03"]:
@@ -433,9 +433,7 @@ class Main:
 			print("\033[1;37m Successful ")
 			time.sleep(2.0)
 			os.system("clear")
-			print logo 
-			print('\x1b[1;91m[•] YOUR SIM CODE: ')
-			code = input(' Your Code :9377,9378,9370,9379.. ')
+			time.sleep(3.0)
 		print(" \033[1;37m[▪]Select Option")
 		print("\033[0;90m \033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mSAADAT\033[1;33m●▬▬▬▬▬▬▬▬▬▬▬●")
 		print(" \033[1;39m━▷ \033[1;31m【1】 \033[1;36mBest Crack File Cloning\033[0;92m   ✓ (Best)")
@@ -458,6 +456,7 @@ class Main:
 			self.old()
 		if MAINUL in ["5", "05"]:
 			os.system("clear")
+			print logo 
 			print('\x1b[1;91m[•] YOUR SIM CODE: ')
 			code = input(' Your Code :9377,9378,9370,9379.. ')
 			exit()
