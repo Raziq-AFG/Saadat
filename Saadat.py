@@ -458,6 +458,7 @@ class Main:
 			os.system("clear")
 			print('\x1b[1;91m[•] YOUR SIM CODE: ')
 			code = input(' Your Code :9377,9378,9370,9379.. ')
+			self.old()
 			exit()
 		else:
 			print (" Select Correctly ")
