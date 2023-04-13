@@ -457,8 +457,10 @@ class Main:
 		if MAINUL in ["5", "05"]:
 			os.system("clear")
 			print('\x1b[1;91m[•] YOUR SIM CODE: ')
-			code = input(' Your Code :9377,9378,9370,9379.. ')
-			self.old()
+			print(' Your Code :9377,9378,9370,9379.. ')
+			lines()
+    kode = input('[+] Your Code : ')
+    lines()
 			exit()
 		else:
 			print (" Select Correctly ")
