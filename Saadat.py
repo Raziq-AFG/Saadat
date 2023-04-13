@@ -455,7 +455,20 @@ class Main:
 			os.system("xdg-open https://www.facebook.com/profile.php?id=100028315179402")
 			self.old()
 		if MAINUL in ["5", "05"]:
-			os.system("")
+			   os.system("clear")
+			print logo
+			print '\x1b[1;93m \x1b[1;92m ETISALAT       : \x1b[1;92m 88,80,86,87,84,83,82,89,81'
+        print ''
+        print '\x1b[1;93m \x1b[1;92m ROSHAN         : \x1b[1;92m 99,91,92,93,94,96,95,97,98'
+        print ''
+        print '\x1b[1;93m \x1b[1;92m MTN            : \x1b[1;92m 71.72.73.74.75.76.77.78.79'
+        print ''
+        print '\x1b[1;93m \x1b[1;92m SALAM          : \x1b[1;92m 31.32.33.34.35.36.37.38.39'
+        print ''
+        print '\x1b[1;93m \x1b[1;92m AWCC.          : \x1b[1;92m 01.02.03.04.05.06.07.08.09'
+        print ''
+        print 47 * '\x1b[1;92m\xe2\x96\xac'
+        
 			self.old2()
 			exit()
 		else:
