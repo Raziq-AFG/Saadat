@@ -458,8 +458,6 @@ class Main:
 			os.system("clear")
 			print('\x1b[1;91m[•] YOUR SIM CODE: ')
 			print(' Your Code :9377,9378,9370,9379.. ')
-			lines()
-    kode = input('[+] Your Code : ')
     lines()
 			exit()
 		else:
