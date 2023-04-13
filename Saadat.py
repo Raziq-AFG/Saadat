@@ -27,7 +27,7 @@ import random
 import platform
 import base64
 import subprocess
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPool
 import requests,bs4,uuid,json,os,sys,random,datetime,time,re,subprocess
 try:
 	import rich
@@ -41,7 +41,7 @@ except ImportError:
 from rich.table import Table as me
 from rich.console import Console as sol
 from bs4 import BeautifulSoup as sop
-from concurrent.futures import ThreadPoolExecutor as tred
+from concurrent.futures import ThreadPool as yaari
 from rich.console import Group as gp
 from rich.panel import Panel as nel
 import base64
@@ -475,7 +475,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=30) as coeg:
+			with ThreadPool(max_workers=30)as yaari:
 				print("\n\033[1;32m [1] Ex(123456) FOR Old IDZ\033[1;37m ")
 				print("\n\033[1;32m [2] Ex(Afghan123,kabul123,khan123,kabul1234..,) FOR New IDZ\033[1;37m ")
 				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
@@ -910,7 +910,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=30) as coeg:
+			with ThreadPool(max_workers=30) as yaari:
 				print("\n\033[1;32m [1] Ex(123456) FOR Old IDZ\033[1;37m ")
 				print("\n\033[1;32m [2] Ex(Afghan123,kabul123,khan123,kabul1234..') FOR New IDZ\033[1;37m ")
 				listpass = input("%s [1] ENTER PASSWORD :%s "%(G,Y))
