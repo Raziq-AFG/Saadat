@@ -48,7 +48,7 @@ def o():
     jalan(logo)
     jalan('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
     print('')
-    jalan('\x1b[1;32m [1]\x1b[1;33m RANDOM CRACK ')
+    jalan('\x1b[1;32m [1]\x1b[1;33m NHMBER RANDOM CRACK ')
     jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
     jalan(' \x1b[1;32m[3] \x1b[1;32mSUBSCRIBE MY CHANNEL')
     jalan(' \x1b[1;32m[4] \x1b[1;32mJOIN FB GROUP')
@@ -178,7 +178,7 @@ logo =                                          ("""
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35m Saadatraziq
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m FREE
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35m Saadat
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.4
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.5
 \033[1;37m================= \33[32;45mSaadat\33[0;m =====================
  
        \33[37;41m\t WELCOME TO SaadatTOOL\33[0;m
