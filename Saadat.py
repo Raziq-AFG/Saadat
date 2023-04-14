@@ -94,7 +94,7 @@ def cek_apk(session,coki):
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
     if len(game)==0:
-        print(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
+        None(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
     else:
         print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
         for i in range(len(game)):
@@ -106,7 +106,7 @@ def cek_apk(session,coki):
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
     if len(game)==0:
-        print(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
+        None(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
     else:
         print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
         for i in range(len(game)):
