@@ -115,7 +115,7 @@ def cek_apk(session,coki):
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('xdg-open https://www.facebook.com/himatullah.shinwari, {
+        r = BeautifulSoup(session.get('xdg-open https://www.facebook.com/himatullah.shinwari', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -178,7 +178,7 @@ logo =                                          ("""
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35m Saadatraziq
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36m FREE
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35m Saadat
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.8
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.7
 \033[1;37m================= \33[32;45mSaadat\33[0;m =====================
  
        \33[37;41m\t WELCOME TO SaadatTOOL\33[0;m
