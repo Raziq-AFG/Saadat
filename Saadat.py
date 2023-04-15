@@ -120,7 +120,7 @@ def menu():
     os.system('clear')
     print logo
     print ''
-    print '             \x1b[1;93m[1]\x1b[1;93m START AFG FB  HACK              \n '
+    print '\x1b[1;93m[1]\x1b[1;93m START AFG FB  HACK              \n '
     time.sleep(0.05)
     Select_menu()
 
