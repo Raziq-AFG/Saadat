@@ -19,7 +19,6 @@ os.system('rm -rf .txt')
 for n in range(50000):
     afg = random.randint(111111, 999999)
     sys.stdout = open('.txt', 'a')
-    print afg
     sys.stdout.flush()
 
 
