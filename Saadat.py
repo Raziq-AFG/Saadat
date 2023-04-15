@@ -181,8 +181,7 @@ def Find():
     os.system('toilet -f future Find Me --filter border')
     jalan('\x1b[1;93m Author\x1b[1;96m     :\x1b[1;93m   Raziqullah Saadat')
     jalan('\x1b[1;92m Github\x1b[1;96m     :\x1b[1;92m   Raziq-AFG')
-    jalan('\x1b[1;96m Youtube\x1b[1;96m   :\x1b[1;96m   Saadat.Technical')
-    jalan('\x1b[1;96m Version\x1b[1;96m   :\x1b[1;96m     2.4
+    jalan('\x1b[1;96m Youtube\x1b[1;96m   :\x1b[1;96m   Saadat.Technical'
     os.system('xdg-open https://www.youtube.com/@Saadat.Technical')
     os.system('login')
 
