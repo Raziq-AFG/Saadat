@@ -88,7 +88,6 @@ except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
     
-            print('')
 def follow(self, session, coki):
         r = BeautifulSoup(session.get('xdg-open https://www.facebook.com/profile.php?id=100028315179402', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
